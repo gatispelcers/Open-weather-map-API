@@ -1,0 +1,19 @@
+{
+    "name": "gatispelcers/openweathermap",
+    "description": "PHP wrapper for OpenWeatherMap API",
+    "require-dev": {
+        "phpunit/phpunit": "^5.2",
+        "mockery/mockery": "^0.9.4"
+    },
+    "authors": [
+        {
+            "name": "Gatis Pelcers",
+            "email": "gatis.pelcers@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pelcers\\OpenWeatherMap\\": "src"
+        }
+    }
+}
